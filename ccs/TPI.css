@@ -1,0 +1,80 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #040404;
+}
+
+section .container {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.contact .php-email-form {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 0;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.contact .php-email-form input {
+    padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+    padding: 12px 15px;
+}
+
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    opacity: 1;
+}
+
+.contact .php-email-form button[type=submit] {
+    background: #18d26e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+

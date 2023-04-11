@@ -16,8 +16,8 @@ $(document).ready(function() {
 messages : {
     name: {
       minlength: "Nombre debe tener al menos 3 letras"
-    },
+    }
     email: {
       email: "Email debe tener el formato: abc@domain.tld"
-    },
+    }
 }
